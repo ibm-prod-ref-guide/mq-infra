@@ -23,7 +23,7 @@ image:
   pullPolicy: Always
 
 queuemanager:
-  debug: false
+  debug: true
   imagePullPolicy: IfNotPresent
   livenessProbe:
     failureThreshold: 1
